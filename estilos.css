@@ -45,7 +45,7 @@ header{
     grid-template-rows: repeat(1, 500px);
     padding: 10px;
     grid-gap: 20px;
-    background-image: url(multimedia/fondo/fondonegro.jpg);
+    background-image: url(multimedia/fondo/fondoblanco.jpg);
 }
 .modelo{
     border-radius: 5px;
@@ -90,7 +90,7 @@ h2{
 
 
 .galeríadestacados{
-    background-color: #333;
+    background-image: url(multimedia/fondo/fondoblanco.jpg);
     min-height: 500px;
     width: 100%;
     display: grid;
