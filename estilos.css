@@ -51,10 +51,12 @@ header{
     border-radius: 5px;
     border: 5px solid #000;
     transition: all 0.7s;
+    filter: grayscale(100%);
 }
 .modelo:hover{
     transform: scale(1.05);
     transition: all 0.7s;
+    filter: grayscale(0%);
 }
 .modelo1{
     background-image: url(multimedia/modelos/carruceldefotos1.png);
@@ -103,10 +105,12 @@ h2{
     border-radius: 5px;
     border: 5px solid #000;
     transition: all 0.7s;
+    filter: grayscale(100%);
 }
 .item:hover{
     transform: scale(1.05);
     transition: all 0.7s;
+    filter: grayscale(0%);
 }
 .item1{
     background-image: url(multimedia/productos\ destacados/buzopublicidad2.png);
