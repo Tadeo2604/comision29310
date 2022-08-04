@@ -1,0 +1,650 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.barra{
+    float: left;
+}
+.barra ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 15px;
+    font-size: 50px;
+}
+.barra a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.logo{
+    padding-left: 30px;
+    float: left;
+    height: 80px;
+}
+
+
+/* MODELOS */
+
+
+.modelos{
+    min-height: 600px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 500px);
+    padding: 10px;
+    grid-gap: 20px;
+    background-image: url(multimedia/fondo/fondonegro.jpg);
+}
+.modelo{
+    border-radius: 5px;
+    border: 5px solid #000;
+    transition: all 0.7s;
+}
+.modelo:hover{
+    transform: scale(1.05);
+    transition: all 0.7s;
+}
+.modelo1{
+    background-image: url(multimedia/modelos/carruceldefotos1.png);
+    background-position: center;
+    background-size: cover;
+}
+.modelo2{
+    background-image: url(multimedia/modelos/carruceldefotos2.png);
+    background-position: center;
+    background-size: cover;
+}
+.modelo3{
+    background-image: url(multimedia/modelos/carruceldefotos3.png);
+    background-position: center;
+    background-size: cover;
+}
+.modelo4{
+    background-image: url(multimedia/modelos/carruceldefotos4.png);
+    background-position: center;
+    background-size: cover;
+}
+h2{
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    padding: 10px;
+}
+
+
+/* PRODUCTOS DESTACADOS */
+
+
+.galeríadestacados{
+    background-color: #333;
+    min-height: 500px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 500px);
+    padding: 10px;
+    grid-gap: 20px;
+}
+.item{
+    border-radius: 5px;
+    border: 5px solid #000;
+    transition: all 0.7s;
+}
+.item:hover{
+    transform: scale(1.05);
+    transition: all 0.7s;
+}
+.item1{
+    background-image: url(multimedia/productos\ destacados/buzopublicidad2.png);
+    background-position: center;
+    background-size: cover;
+}
+.item2{
+    background-image: url(multimedia/productos\ destacados/buzopublicidad1.png);
+    background-position: center;
+    background-size: cover;
+}
+.item3{
+    background-image: url(multimedia/productos\ destacados/buzopublicidad3.png);
+    background-position: center;
+    background-size: cover;
+}
+.item4{
+    background-image: url(multimedia/productos\ destacados/buzopublicidad4.png);
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* HOMBRE */
+
+
+.ropahombre{
+    min-height: 600px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 500px);
+    padding: 10px;
+    grid-gap: 20px;
+    background-image: url(multimedia/fondo/fondonegro.jpg);
+}
+
+.itemhombre{
+    border-radius: 5px;
+    border: 5px solid #000;
+    transition: all 0.7s;
+}
+.itemhombre:hover{
+    transform: scale(1.05);
+    transition: all 0.7s;
+}
+.h1{
+    background-image: url(multimedia/ropa\ hombre/buzohombre1.png);
+    background-position: center;
+    background-size: cover;
+}
+.h2{
+    background-image: url(multimedia/ropa\ hombre/buzohombre2.png);
+    background-position: center;
+    background-size: cover;
+}
+.h3{
+    background-image: url(multimedia/ropa\ hombre/camperahombre1.png);
+    background-position: center;
+    background-size: cover;
+}
+.h4{
+    background-image: url(multimedia/ropa\ hombre/jeanhombre1.png);
+    background-position: center;
+    background-size: cover;
+}
+.h5{
+    background-image: url(multimedia/ropa\ hombre/joggerhombre1.png);
+    background-position: center;
+    background-size: cover;
+}
+.h6{
+    background-image: url(multimedia/ropa\ hombre/joggerhombre2.png);
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* MUJER */
+
+
+.ropamujer{
+    min-height: 600px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 550px 550px 550px;
+    padding: 10px;
+    grid-gap: 20px;
+    background-image: url(multimedia/fondo/fondonegro.jpg);
+}
+
+.itemmujer{
+    border-radius: 5px;
+    border: 5px solid #000;
+    transition: all 0.7s;
+}
+.itemmujer:hover{
+    transform: scale(1.05);
+    transition: all 0.7s;
+}
+.m1{
+    background-image: url(multimedia/ropa\ mujer/buzomujer1.png);
+    background-position: center;
+    background-size: cover;
+}
+.m2{
+    background-image: url(multimedia/ropa\ mujer/conjuntomujer1.png);
+    background-position: center;
+    background-size: cover;
+}
+.m3{
+    background-image: url(multimedia/ropa\ mujer/conjuntomujer2.png);
+    background-position: center;
+    background-size: cover;
+}
+.m4{
+    background-image: url(multimedia/ropa\ mujer/joggermujer1.png);
+    background-position: center;
+    background-size: cover;
+}
+.m5{
+    background-image: url(multimedia/ropa\ mujer/remeramujer1.png);
+    background-position: center;
+    background-size: cover;
+}
+.m6{
+    background-image: url(multimedia/ropa\ mujer/remeramujer2.png);
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* NIÑO */
+
+
+.ropaniño{
+    min-height: 600px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 550px 550px 550px;
+    padding: 10px;
+    grid-gap: 20px;
+    background-image: url(multimedia/fondo/fondonegro.jpg);
+}
+
+.itemniño{
+    border-radius: 5px;
+    border: 5px solid #000;
+    transition: all 0.7s;
+}
+.itemniño:hover{
+    transform: scale(1.05);
+    transition: all 0.7s;
+}
+.n1{
+    background-image: url(multimedia/ropa\ niño/buzoniño1.png);
+    background-position: center;
+    background-size: cover;
+}
+.n2{
+    background-image: url(multimedia/ropa\ niño/buzoniño2.png);
+    background-position: center;
+    background-size: cover;
+}
+.n3{
+    background-image: url(multimedia/ropa\ niño/conjuntoniño1.png);
+    background-position: center;
+    background-size: cover;
+}
+.n4{
+    background-image: url(multimedia/ropa\ niño/conjuntoniño2.png);
+    background-position: center;
+    background-size: cover;
+}
+.n5{
+    background-image: url(multimedia/ropa\ niño/remeraniño1.png);
+    background-position: center;
+    background-size: cover;
+}
+.n6{
+    background-image: url(multimedia/ropa\ niño/remeraniño2.png);
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* FORMULARIO */
+
+
+.formulario{
+    min-height: 847px;
+    width: 100%;
+    background-image: url(multimedia/fondo/fondonegro.jpg);
+}
+label{
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+    padding: 20px;
+}
+input{
+    font-size: xx-large;
+}
+button{
+    margin-left: 50px;
+    font-size: xx-large;
+}
+
+
+/* FOOTER */
+
+
+footer{
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    text-transform: capitalize;
+    padding: 20px;
+    color: #fff;
+}
+footer i{
+    font-size: 40px;
+    color: #fff;
+    letter-spacing: 20px;
+    margin-top: 0px;
+}
+
+
+/* MEDIAS */
+
+/* PRODUCTOS DESTACADOS */
+@media only screen and (min-width:0px) and (max-width:360px){
+    .galeríadestacados{
+        height: 2100px;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (min-width:360px){
+    .galeríadestacados{
+        height: 2000px;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (min-width:600px) and (max-width:767px){
+    .galeríadestacados{
+        height: 1050px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 500px);
+        grid-template-areas: "img1 img2"
+                            "img3 img4"
+    }
+    .item1{
+        grid-area: img1;
+    }
+    .item2{
+        grid-area: img2;
+    }
+    .item3{
+        grid-area: img3;
+    }
+    .item4{
+        grid-area: img4;
+    }
+}
+
+@media only screen and (min-width:768px){
+    .galeríadestacados{
+        height: 550px;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(1, 500px);
+        grid-template-areas: "img1 img2 img3 img4"
+    }
+    .item1{
+        grid-area: img1;
+    }
+    .item2{
+        grid-area: img2;
+    }
+    .item3{
+        grid-area: img3;
+    }
+    .item4{
+        grid-area: img4;
+    }
+}
+
+
+/* MODELOS */
+@media only screen and (min-width:0px) and (max-width:600px){
+    .modelos{
+        height: 1500px;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (min-width:600px) and (max-width:767px){
+    .modelos{
+        height: 1050px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 500px);
+        grid-template-areas: "img1 img2"
+                            "img3 img4"
+    }
+    .modelo1{
+        grid-area: img1;
+    }
+    .modelo2{
+        grid-area: img2;
+    }
+    .modelo3{
+        grid-area: img3;
+    }
+    .modelo4{
+        grid-area: img4;
+    }
+}
+
+
+/* ROPA HOMBRE */
+@media only screen and (min-width:0px) and (max-width:360px){
+    .ropahombre{
+        height: 3000px;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (min-width:360px){
+    .ropahombre{
+        height: 3000px;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (min-width:600px) and (max-width:767px){
+    .ropahombre{
+        height: 1565px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 500px);
+        grid-template-areas: "img1 img2"
+                            "img3 img4"
+                            "img5 img6"
+    }
+    .h1{
+        grid-area: img1;
+    }
+    .h2{
+        grid-area: img2;
+    }
+    .h3{
+        grid-area: img3;
+    }
+    .h4{
+        grid-area: img4;
+    }
+    .h5{
+        grid-area: img5;
+    }
+    .h6{
+        grid-area: img6;
+    }
+}
+
+@media only screen and (min-width:768px){
+    .ropahombre{
+        height: 1050px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 500px);
+        grid-template-areas: "img1 img2 img3"
+                            "img4 img5 img6"
+    }
+    .h1{
+        grid-area: img1;
+    }
+    .h2{
+        grid-area: img2;
+    }
+    .h3{
+        grid-area: img3;
+    }
+    .h4{
+        grid-area: img4;
+    }
+    .h5{
+        grid-area: img5;
+    }
+    .h6{
+        grid-area: img6;
+    }
+}
+
+
+/* MUJER */
+@media only screen and (min-width:0px) and (max-width:360px){
+    .ropamujer{
+        height: 3000px;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (min-width:360px){
+    .ropamujer{
+        height: 3000px;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (min-width:600px) and (max-width:767px){
+    .ropamujer{
+        height: 1565px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 500px);
+        grid-template-areas: "img1 img2"
+                            "img3 img4"
+                            "img5 img6"
+    }
+    .m1{
+        grid-area: img1;
+    }
+    .m2{
+        grid-area: img2;
+    }
+    .m3{
+        grid-area: img3;
+    }
+    .m4{
+        grid-area: img4;
+    }
+    .m5{
+        grid-area: img5;
+    }
+    .m6{
+        grid-area: img6;
+    }
+}
+
+@media only screen and (min-width:768px){
+    .ropamujer{
+        height: 1050px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 500px);
+        grid-template-areas: "img1 img2 img3"
+                            "img4 img5 img6"
+    }
+    .m1{
+        grid-area: img1;
+    }
+    .m2{
+        grid-area: img2;
+    }
+    .m3{
+        grid-area: img3;
+    }
+    .m4{
+        grid-area: img4;
+    }
+    .m5{
+        grid-area: img5;
+    }
+    .m6{
+        grid-area: img6;
+    }
+}
+
+
+/* NIÑO */
+@media only screen and (min-width:0px) and (max-width:360px){
+    .ropaniño{
+        height: 3000px;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (min-width:360px){
+    .ropaniño{
+        height: 3000px;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (min-width:600px) and (max-width:767px){
+    .ropaniño{
+        height: 1565px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 500px);
+        grid-template-areas: "img1 img2"
+                            "img3 img4"
+                            "img5 img6"
+    }
+    .n1{
+        grid-area: img1;
+    }
+    .n2{
+        grid-area: img2;
+    }
+    .n3{
+        grid-area: img3;
+    }
+    .n4{
+        grid-area: img4;
+    }
+    .n5{
+        grid-area: img5;
+    }
+    .n6{
+        grid-area: img6;
+    }
+}
+
+@media only screen and (min-width:768px){
+    .ropaniño{
+        height: 1050px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 500px);
+        grid-template-areas: "img1 img2 img3"
+                            "img4 img5 img6"
+    }
+    .n1{
+        grid-area: img1;
+    }
+    .n2{
+        grid-area: img2;
+    }
+    .n3{
+        grid-area: img3;
+    }
+    .n4{
+        grid-area: img4;
+    }
+    .n5{
+        grid-area: img5;
+    }
+    .n6{
+        grid-area: img6;
+    }
+}
