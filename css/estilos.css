@@ -45,7 +45,7 @@ header{
     grid-template-rows: repeat(1, 500px);
     padding: 10px;
     grid-gap: 20px;
-    background-image: url(multimedia/fondo/fondoblanco.jpg);
+    background-image: url(../multimedia/fondo/fondoblanco.jpg);
 }
 .modelo{
     border-radius: 5px;
@@ -59,22 +59,22 @@ header{
     filter: grayscale(0%);
 }
 .modelo1{
-    background-image: url(multimedia/modelos/carruceldefotos1.png);
+    background-image: url(../multimedia/modelos/carruceldefotos1.png);
     background-position: center;
     background-size: cover;
 }
 .modelo2{
-    background-image: url(multimedia/modelos/carruceldefotos2.png);
+    background-image: url(../multimedia/modelos/carruceldefotos2.png);
     background-position: center;
     background-size: cover;
 }
 .modelo3{
-    background-image: url(multimedia/modelos/carruceldefotos3.png);
+    background-image: url(../multimedia/modelos/carruceldefotos3.png);
     background-position: center;
     background-size: cover;
 }
 .modelo4{
-    background-image: url(multimedia/modelos/carruceldefotos4.png);
+    background-image: url(../multimedia/modelos/carruceldefotos4.png);
     background-position: center;
     background-size: cover;
 }
@@ -92,7 +92,7 @@ h2{
 
 
 .galeríadestacados{
-    background-image: url(multimedia/fondo/fondoblanco.jpg);
+    background-image: url(../multimedia/fondo/fondoblanco.jpg);
     min-height: 500px;
     width: 100%;
     display: grid;
@@ -113,22 +113,22 @@ h2{
     filter: grayscale(0%);
 }
 .item1{
-    background-image: url(multimedia/productos\ destacados/buzopublicidad2.png);
+    background-image: url(../multimedia/productos\ destacados/buzopublicidad2.png);
     background-position: center;
     background-size: cover;
 }
 .item2{
-    background-image: url(multimedia/productos\ destacados/buzopublicidad1.png);
+    background-image: url(../multimedia/productos\ destacados/buzopublicidad1.png);
     background-position: center;
     background-size: cover;
 }
 .item3{
-    background-image: url(multimedia/productos\ destacados/buzopublicidad3.png);
+    background-image: url(../multimedia/productos\ destacados/buzopublicidad3.png);
     background-position: center;
     background-size: cover;
 }
 .item4{
-    background-image: url(multimedia/productos\ destacados/buzopublicidad4.png);
+    background-image: url(../multimedia/productos\ destacados/buzopublicidad4.png);
     background-position: center;
     background-size: cover;
 }
@@ -145,45 +145,47 @@ h2{
     grid-template-rows: repeat(2, 500px);
     padding: 10px;
     grid-gap: 20px;
-    background-image: url(multimedia/fondo/fondonegro.jpg);
+    background-image: url(../multimedia/fondo/fondoblanco.jpg);
 }
 
 .itemhombre{
     border-radius: 5px;
     border: 5px solid #000;
     transition: all 0.7s;
+    filter: grayscale(100%);
 }
 .itemhombre:hover{
     transform: scale(1.05);
     transition: all 0.7s;
+    filter: grayscale(0%);
 }
 .h1{
-    background-image: url(multimedia/ropa\ hombre/buzohombre1.png);
+    background-image: url(../multimedia/ropa\ hombre/buzohombre1.png);
     background-position: center;
     background-size: cover;
 }
 .h2{
-    background-image: url(multimedia/ropa\ hombre/buzohombre2.png);
+    background-image: url(../multimedia/ropa\ hombre/buzohombre2.png);
     background-position: center;
     background-size: cover;
 }
 .h3{
-    background-image: url(multimedia/ropa\ hombre/camperahombre1.png);
+    background-image: url(../multimedia/ropa\ hombre/camperahombre1.png);
     background-position: center;
     background-size: cover;
 }
 .h4{
-    background-image: url(multimedia/ropa\ hombre/jeanhombre1.png);
+    background-image: url(../multimedia/ropa\ hombre/jeanhombre1.png);
     background-position: center;
     background-size: cover;
 }
 .h5{
-    background-image: url(multimedia/ropa\ hombre/joggerhombre1.png);
+    background-image: url(../multimedia/ropa\ hombre/joggerhombre1.png);
     background-position: center;
     background-size: cover;
 }
 .h6{
-    background-image: url(multimedia/ropa\ hombre/joggerhombre2.png);
+    background-image: url(../multimedia/ropa\ hombre/joggerhombre2.png);
     background-position: center;
     background-size: cover;
 }
@@ -200,45 +202,47 @@ h2{
     grid-template-rows: 550px 550px 550px;
     padding: 10px;
     grid-gap: 20px;
-    background-image: url(multimedia/fondo/fondonegro.jpg);
+    background-image: url(../multimedia/fondo/fondoblanco.jpg);
 }
 
 .itemmujer{
     border-radius: 5px;
     border: 5px solid #000;
     transition: all 0.7s;
+    filter: grayscale(100%);
 }
 .itemmujer:hover{
     transform: scale(1.05);
     transition: all 0.7s;
+    filter: grayscale(0%);
 }
 .m1{
-    background-image: url(multimedia/ropa\ mujer/buzomujer1.png);
+    background-image: url(../multimedia/ropa\ mujer/buzomujer1.png);
     background-position: center;
     background-size: cover;
 }
 .m2{
-    background-image: url(multimedia/ropa\ mujer/conjuntomujer1.png);
+    background-image: url(../multimedia/ropa\ mujer/conjuntomujer1.png);
     background-position: center;
     background-size: cover;
 }
 .m3{
-    background-image: url(multimedia/ropa\ mujer/conjuntomujer2.png);
+    background-image: url(../multimedia/ropa\ mujer/conjuntomujer2.png);
     background-position: center;
     background-size: cover;
 }
 .m4{
-    background-image: url(multimedia/ropa\ mujer/joggermujer1.png);
+    background-image: url(../multimedia/ropa\ mujer/joggermujer1.png);
     background-position: center;
     background-size: cover;
 }
 .m5{
-    background-image: url(multimedia/ropa\ mujer/remeramujer1.png);
+    background-image: url(../multimedia/ropa\ mujer/remeramujer1.png);
     background-position: center;
     background-size: cover;
 }
 .m6{
-    background-image: url(multimedia/ropa\ mujer/remeramujer2.png);
+    background-image: url(../multimedia/ropa\ mujer/remeramujer2.png);
     background-position: center;
     background-size: cover;
 }
@@ -255,45 +259,47 @@ h2{
     grid-template-rows: 550px 550px 550px;
     padding: 10px;
     grid-gap: 20px;
-    background-image: url(multimedia/fondo/fondonegro.jpg);
+    background-image: url(../multimedia/fondo/fondoblanco.jpg);
 }
 
 .itemniño{
     border-radius: 5px;
     border: 5px solid #000;
     transition: all 0.7s;
+    filter: grayscale(100%);
 }
 .itemniño:hover{
     transform: scale(1.05);
     transition: all 0.7s;
+    filter: grayscale(0%);
 }
 .n1{
-    background-image: url(multimedia/ropa\ niño/buzoniño1.png);
+    background-image: url(../multimedia/ropa\ niño/buzoniño1.png);
     background-position: center;
     background-size: cover;
 }
 .n2{
-    background-image: url(multimedia/ropa\ niño/buzoniño2.png);
+    background-image: url(../multimedia/ropa\ niño/buzoniño2.png);
     background-position: center;
     background-size: cover;
 }
 .n3{
-    background-image: url(multimedia/ropa\ niño/conjuntoniño1.png);
+    background-image: url(../multimedia/ropa\ niño/conjuntoniño1.png);
     background-position: center;
     background-size: cover;
 }
 .n4{
-    background-image: url(multimedia/ropa\ niño/conjuntoniño2.png);
+    background-image: url(../multimedia/ropa\ niño/conjuntoniño2.png);
     background-position: center;
     background-size: cover;
 }
 .n5{
-    background-image: url(multimedia/ropa\ niño/remeraniño1.png);
+    background-image: url(../multimedia/ropa\ niño/remeraniño1.png);
     background-position: center;
     background-size: cover;
 }
 .n6{
-    background-image: url(multimedia/ropa\ niño/remeraniño2.png);
+    background-image: url(../multimedia/ropa\ niño/remeraniño2.png);
     background-position: center;
     background-size: cover;
 }
@@ -305,7 +311,7 @@ h2{
 .formulario{
     min-height: 847px;
     width: 100%;
-    background-image: url(multimedia/fondo/fondonegro.jpg);
+    background-image: url(../multimedia/fondo/fondoblanco.jpg);
 }
 label{
     color: #fff;
