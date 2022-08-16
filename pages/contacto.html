@@ -11,55 +11,57 @@
     <link rel="stylesheet" href="../css/bootstrap.min.css">
 </head>
 <body>
-    <header class="container-fluid">
-        <a href="../index.html"> <img src="../multimedia/logo/logoonix.png" alt="logo de página" class="logo" ></a>
-        <nav class="barra">
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="hombre.html">Hombre</a></li>
-                <li><a href="mujer.html">Mujer</a></li>
-                <li><a href="niño.html">Niño</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section class="formulario">
-        <form action="enviar.php" method="post" enctype="text/plain" netlify>
-            <div class="container">
-                <div class="destinatario">
-                    <label class="text-dark" for="destinatario">Destinatario:</label>
-                    <input class="form-control shadow-lg p-3 mb-5 bg-body rounded" type="text" name="destinatario" required><br><br>
+    <main>
+        <header class="container-fluid">
+            <a href="../index.html"> <img src="../multimedia/logo/logoonix.png" alt="logo de página" class="logo" ></a>
+            <nav class="barra">
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="hombre.html">Hombre</a></li>
+                    <li><a href="mujer.html">Mujer</a></li>
+                    <li><a href="niño.html">Niño</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="formulario">
+            <form action="enviar.php" method="post" enctype="text/plain" netlify>
+                <div class="container">
+                    <div class="destinatario">
+                        <label class="text-dark" for="destinatario">Destinatario:</label>
+                        <input class="form-control shadow-lg p-3 mb-5 bg-body rounded" type="text" name="destinatario" required><br><br>
+                    </div>
+                    <div class="nombre">
+                        <label class="text-dark" for="nombre">Nombre:</label>
+                        <input class="form-control shadow-lg p-3 mb-5 bg-body rounded" type="text" name="nombre" required><br><br>
+                    </div>
+                    <div class="mail">
+                        <label class="text-dark" for="mail">e-mail:</label>
+                        <input class="form-control shadow-lg p-3 mb-5 bg-body rounded" type="email" name="mail" required><br><br>
+                    </div>
+                    <div class="asunto">
+                        <label class="text-dark" for="asunto">Asunto:</label>
+                        <input class="form-control shadow-lg p-3 mb-5 bg-body rounded" type="text" name="asunto" required><br><br>
+                    </div>
+                    <div class="mensaje">
+                        <label class="text-dark" for="mensaje">Mensaje:</label>
+                        <input class="form-control shadow-lg p-3 mb-5 bg-body rounded" name="mensaje" id="" cols="30" rows="2"></input><br><br>
+                    </div>
+                    <div class="submit">
+                        <button class="btn btn-dark" type="submit">Enviar</button>
+                    </div>
                 </div>
-                <div class="nombre">
-                    <label class="text-dark" for="nombre">Nombre:</label>
-                    <input class="form-control shadow-lg p-3 mb-5 bg-body rounded" type="text" name="nombre" required><br><br>
-                </div>
-                <div class="mail">
-                    <label class="text-dark" for="mail">e-mail:</label>
-                    <input class="form-control shadow-lg p-3 mb-5 bg-body rounded" type="email" name="mail" required><br><br>
-                </div>
-                <div class="asunto">
-                    <label class="text-dark" for="asunto">Asunto:</label>
-                    <input class="form-control shadow-lg p-3 mb-5 bg-body rounded" type="text" name="asunto" required><br><br>
-                </div>
-                <div class="mensaje">
-                    <label class="text-dark" for="mensaje">Mensaje:</label>
-                    <input class="form-control shadow-lg p-3 mb-5 bg-body rounded" name="mensaje" id="" cols="30" rows="2"></input><br><br>
-                </div>
-                <div class="submit">
-                    <button class="btn btn-dark" type="submit">Enviar</button>
-                </div>
+            </form>
+        </section>
+        <footer>
+            <p>todos los derechos reservados por copyright a nombre de Tadeo Rodriguez</p>
+            <div class="redes">
+                <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.whatsapp.com"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://twitter.com"><i class="fa-brands fa-square-twitter"></i></a>
             </div>
-        </form>
-    </section>
-    <footer>
-        <p>todos los derechos reservados por copyright a nombre de Tadeo Rodriguez</p>
-        <div class="redes">
-            <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
-            <a href="https://www.whatsapp.com"><i class="fa-brands fa-whatsapp"></i></a>
-            <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
-            <a href="https://twitter.com"><i class="fa-brands fa-square-twitter"></i></a>
-        </div>
-    </footer>
+        </footer>
+    </main>
 </body>
 </html>
