@@ -12,9 +12,6 @@ header{
     align-items: center;
     padding: 20px;
 }
-.barra{
-    float: left;
-}
 .barra ul li{
     list-style: none;
     display: inline-block;
@@ -29,7 +26,6 @@ header{
 }
 .logo{
     padding-left: 30px;
-    float: left;
     height: 80px;
     filter: grayscale(100%);
     transition: all 0.7s;
