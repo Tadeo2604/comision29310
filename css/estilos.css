@@ -8,36 +8,31 @@
 header {
   background-color: black;
   color: white;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 25px;
   display: flex;
   align-items: center;
   padding: 20px;
 }
-
-.barra ul li {
+header .barra ul li {
   list-style: none;
   display: inline-block;
   margin-left: 15px;
   font-size: 50px;
 }
-
-.barra a {
+header .barra a {
   text-decoration: none;
   color: white;
   font-size: 22px;
   font-family: "Noto Sans KR", sans-serif;
 }
-
-.logo {
+header .logo {
   padding-left: 30px;
   height: 80px;
   filter: grayscale(100%);
   transition: all 0.7s;
 }
-
-.logo:hover {
-  filter: grayscale(0%);
+header .logo:hover {
+  filter: grayscale(100%);
   transition: all 0.7s;
 }
 
@@ -150,7 +145,7 @@ h2 {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 500px);
+  grid-template-rows: 550px 550px 550px;
   padding: 10px;
   grid-gap: 20px;
   background-image: url(../multimedia/fondo/fondoblanco.jpg);
@@ -327,18 +322,15 @@ h2 {
   width: 100%;
   background-image: url(../multimedia/fondo/fondoblanco.jpg);
 }
-
-label {
+.formulario label {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: xx-large;
   padding: 20px;
 }
-
-input {
+.formulario input {
   font-size: xx-large;
 }
-
-button {
+.formulario button {
   margin-left: 50px;
   font-size: xx-large;
 }
@@ -354,7 +346,6 @@ footer {
   padding: 20px;
   color: #fff;
 }
-
 footer i {
   font-size: 40px;
   color: #fff;

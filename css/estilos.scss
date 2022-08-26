@@ -3,37 +3,56 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+// MIXINS
+
+
+@mixin productos {
+    min-height: 600px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 550px 550px 550px;
+    padding: 10px;
+    grid-gap: 20px;
+    background-image: url(../multimedia/fondo/fondoblanco.jpg);
+}
+
+
 header{
     background-color: black;
     color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 25px;
     display: flex;
     align-items: center;
     padding: 20px;
+    .barra{
+        ul li{
+        list-style: none;
+        display: inline-block;
+        margin-left: 15px;
+        font-size: 50px;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            font-size: 22px;
+            font-family: 'Noto Sans KR', sans-serif;
+        }
+    }
+    .logo{
+        padding-left: 30px;
+        height: 80px;
+        filter: grayscale(100%);
+        transition: all 0.7s;
+    }
+    .logo:hover{
+            filter: grayscale(100%);
+            transition: all 0.7s;
+    }
 }
-.barra ul li{
-    list-style: none;
-    display: inline-block;
-    margin-left: 15px;
-    font-size: 50px;
-}
-.barra a{
-    text-decoration: none;
-    color: white;
-    font-size: 22px;
-    font-family: 'Noto Sans KR', sans-serif;
-}
-.logo{
-    padding-left: 30px;
-    height: 80px;
-    filter: grayscale(100%);
-    transition: all 0.7s;
-}
-.logo:hover{
-    filter: grayscale(0%);
-    transition: all 0.7s;
-}
+
 
 
 /* MODELOS */
@@ -136,14 +155,7 @@ h2{
 
 
 .ropahombre{
-    min-height: 600px;
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 500px);
-    padding: 10px;
-    grid-gap: 20px;
-    background-image: url(../multimedia/fondo/fondoblanco.jpg);
+    @include productos();
 }
 
 .itemhombre{
@@ -191,14 +203,7 @@ h2{
 
 
 .ropamujer{
-    min-height: 600px;
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 550px 550px 550px;
-    padding: 10px;
-    grid-gap: 20px;
-    background-image: url(../multimedia/fondo/fondoblanco.jpg);
+    @include productos();
 }
 
 .itemmujer{
@@ -246,14 +251,7 @@ h2{
 
 
 .ropaniño{
-    min-height: 600px;
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 550px 550px 550px;
-    padding: 10px;
-    grid-gap: 20px;
-    background-image: url(../multimedia/fondo/fondoblanco.jpg);
+    @include productos();
 }
 
 .itemniño{
@@ -304,19 +302,20 @@ h2{
     min-height: 847px;
     width: 100%;
     background-image: url(../multimedia/fondo/fondoblanco.jpg);
+    label{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: xx-large;
+        padding: 20px;
+    }
+    input{
+        font-size: xx-large;
+    }
+    button{
+        margin-left: 50px;
+        font-size: xx-large;
+    }
 }
-label{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: xx-large;
-    padding: 20px;
-}
-input{
-    font-size: xx-large;
-}
-button{
-    margin-left: 50px;
-    font-size: xx-large;
-}
+
 
 
 /* FOOTER */
@@ -331,13 +330,14 @@ footer{
     text-transform: capitalize;
     padding: 20px;
     color: #fff;
+    i{
+        font-size: 40px;
+        color: #fff;
+        letter-spacing: 20px;
+        margin-top: 0px;
+    }
 }
-footer i{
-    font-size: 40px;
-    color: #fff;
-    letter-spacing: 20px;
-    margin-top: 0px;
-}
+
 
 
 /* MEDIAS */
